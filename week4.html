@@ -43,40 +43,7 @@
       
       <p>here is a demo, and, because my code is multiple hundreads of lines long, I was told to not include code snippets, rather including a download of the sketch</p>
       <a href="pic/braille.ino">BRAILLE CODE DOWNLOAD</a>
-      <code>
-        int a = 2;
-        int b = 3;
-        int c = 4;
-        int d = 5;
-        int e = 6;
-        int f = 7;
-        char one;
-        void setup() {
-          Serial.begin(9600);
-          // initialize digital pin LED_BUILTIN as an output.
-          pinMode(2, OUTPUT);
-          pinMode(3, OUTPUT);
-          pinMode(4, OUTPUT);
-          pinMode(5, OUTPUT);
-          pinMode(6, OUTPUT);
-          pinMode(7, OUTPUT);
 
-        }
-
-        // the loop function runs over and over again forever
-        void loop() {
-            if(Serial.available()){
-                one = Serial.read();
-                Serial.println(one);
-            }
-
-          if (one == 'a'){
-            digitalWrite(a, HIGH);
-            delay(2000);
-            digitalWrite(a, LOW);
-
-            }
-      </code>
       
       
 
